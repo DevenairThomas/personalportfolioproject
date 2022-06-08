@@ -1,0 +1,384 @@
+body{
+	margin:0;
+	font-wieght:300;
+}
+.sticky {
+  		position: fixed;
+  		top: 0;
+  		width: 100%
+	}
+	.sticky + .content {
+  		padding-top: 102px;
+	}
+
+.headingbar{
+	width:80%;
+	top:-50px;
+	margin: 0 auto;
+}
+
+header{
+	background: #C1BCB2;
+}
+header::after{
+	content:'';
+	display: table;
+	clear: both;
+}
+nav ul{
+	margin:0;
+	list-style: none;
+}
+.instaicon {
+	display:block;
+        background-image: url("../img/insta_icon.png");
+    }
+
+    .youtubeicon{
+        background-image: url("../img/youtube.png");
+    }
+.linkedinicon{
+	display:block;
+	background-image: url("../img/linkedin.png");
+}
+nav li{
+	top:170px;
+	margin-left: 70px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position:relative;
+}
+nav a{
+	color: #4A4A4A;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 400;
+}
+nav a:hover{
+	color:rgba(57,90,174,1.00);
+}
+nav a::before{
+	content:'';
+	display:block;
+	height: 5px;
+	width: 0%;
+	background-color: rgba(57,90,174,1.00);	
+	position: absolute;
+	transition: all ease-in-out 250ms;
+	top: 5px;
+}
+nav a:hover:before{
+	width:10%;
+}
+.landing_page{
+	background: url("../img/HomePage.png")no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+}
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+.livelongstudios{
+	left: 200px;
+    top: 0px;
+	margin-left: 175px;
+    position: absolute;
+    overflow: visible;
+    width: 693px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Alegreya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 75px;
+    color: rgba(0,0,0,1.00);
+}
+.About_Me{
+	left: 900px;
+    top: 585px;
+    position: absolute;
+    overflow: visible;
+    width: 693px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    color: rgba(0,0,0,1.00);
+		}
+.About_Me_Again{
+	left: 920px;
+    top: 1575px;
+    position: absolute;
+    width: 897px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    color: rgba(0,0,0,1.00);
+}
+.About_Me_Again_Background{
+	position: absolute;
+	overflow: visible;
+    width: 969px;
+    height: 300px;
+    left: 800px;
+    top: 1566px;
+	opacity: 0.61;
+	fill: #E87C1B;
+}
+
+.About_Me_Background{
+	position: absolute;
+    overflow: visible;
+    width: 969px;
+    height: 380px;
+    left: 649px;
+    top: 482px;
+	opacity: 0.61;
+	fill: rgba(57,90,174,1);
+	border-sizing:border-box;
+}
+.introduction{
+	background-image:url("../img/Profile pic.png");
+	position:absolute;
+	width:472px;
+	height:472px;
+	top:500px;
+	left:413px;
+	overflow: visible;
+	padding:1px;
+}
+.Intro_Background{
+	position: absolute;
+    overflow: visible;
+    width: 472px;
+    height: 472px;
+    left: 373px;
+    top: 540px;
+	opacity: 0.61;
+	fill: #E87C1B;
+	border-sizing:border-box;
+}
+.dog{
+	background-image: url("../img/dogincarrige.png");
+	position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 397px;
+    top: 1250px;
+    overflow: visible;
+}
+.skateboard{
+	background-image: url("../img/FINALSKATEBOARDERDUDESCROP.png");
+	position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 397px;
+    top: 1750px;
+    overflow: visible;
+}
+	.picture_background_dog{
+		position:absolute;
+		width:500px;
+		height: 400px;
+		top:1300px;
+		left:347px;
+		opacity:0.6;
+		background:rgba(57,90,174,1.00);
+		
+	}
+.picture_background_skate{
+	position:absolute;
+		width:500px;
+		height:400px;
+		top:1800px;
+		left:347px;
+		opacity:0.6;
+		background:rgba(57,90,174,1.00);
+}
+.portfolio_text{
+	left: 400px;
+    top: 2200px;
+	margin-left: 175px;
+    position: absolute;
+    overflow: visible;
+    width: 693px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Alegreya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 75px;
+    color: rgba(0,0,0,1.00);
+}
+.portfolio_list {
+	top:2500px;
+	left:425px;
+	position:absolute;
+  white-space: nowrap;
+}
+.portfolio_list2{
+	top:3040px;
+	left:425px;
+	position:absolute;
+  white-space: nowrap;
+}
+.portfolio_list3{
+	top:2770px;
+	left:425px;
+	position:absolute;
+  white-space: nowrap;
+}
+.portfolio_list4{
+	top:2770px;
+	left:1242px;
+	position:absolute;
+  white-space: nowrap;
+}
+.iconlist{
+	top:800px;
+	left:50px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	position:absolute;
+  white-space: nowrap;
+}
+	.card_1 {
+		background-image: url("../img/manniwalking.png");
+		height:200px;
+		width:200px;
+		background-size: 200px;
+		left:5px;
+    display: inline-block;
+  }
+.card_2 {
+		background-image: url("../img/lovestallion4212.png");
+		height:200px;
+		width:200px;
+	background-size: 200px;
+		left:5px;
+    display: inline-block;
+  }
+.card_3 {
+		background-image: url("../img/lovestallion3964.png");
+		height:200px;
+		width:200px;
+	background-size: 200px;
+		left:5px;
+    display: inline-block;
+  }
+.card_4 {
+		background-image: url("../piano painting 3.png");
+		height:200px;
+		width:200px;
+	background-size: 200px;
+		left:5px;
+    display: inline-block;
+  }
+.card_5 {
+		background-image: url("../dogincarrige.png");
+		height:200px;
+		width:200px;
+	background-size: 200px;
+		left:5px;
+    display: inline-block;
+  }
+.card_6 {
+		background-image: url("../img/DSC00803.png");
+		height:200px;
+		width:200px;
+	background-size: 200px;
+		left:5px;
+    display: inline-block;
+  }
+.card_7 {
+		background-image: url("../07272020UPLOAD.png");
+		height:200px;
+		width:200px;
+	background-size: 200px;
+		left:5px;
+    display: inline-block;
+  }
+.card_8 {
+		background-image: url("../img/newmannipeace.png");
+		height:200px;
+		width:200px;
+	background-size: 200px;
+		left:5px;
+    display: inline-block;
+  }
+.card_9 {
+		background-image: url("../img/rockstack.png");
+		height:200px;
+		width:200px;
+	background-size: 200px;
+		left:5px;
+    display: inline-block;
+  }
+.card_10 {
+		background-image: url("../img/newsax.png");
+		height:200px;
+		width:200px;
+	background-size: 200px;
+		left:5px;
+    display: inline-block;
+  }
+.card_11 {
+		background-image: url("../img/prayer1.png");
+		height:200px;
+		width:200px;
+	background-size: 200px;
+		left:5px;
+  }
+.card_12 {
+		background-image: url("../img/FINALSKATEBOARDERDUDESNEWCROP.png");
+		height:200px;
+		width:200px;
+	background-size: 200px;
+		left:5px;
+  }
+.card_13 {
+		background-image: url("../img/prayer1.png");
+		height:200px;
+		width:200px;
+	background-size: 200px;
+		left:5px;
+  }
+.card_14 {
+		background-image: url("../img/prayer1.png");
+		height:200px;
+		width:200px;
+	background-size: 200px;
+		left:5px;
+  }
+.responsive{
+			width: 50%;
+			height: auto;
+
+		}
+.video_align{
+	position: absolute;
+	left:652px;
+	top:2710px;
+}
